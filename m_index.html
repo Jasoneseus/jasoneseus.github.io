@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+
+<script src="js/scripts.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="musicassets/cspd-player.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="musicassets/cspd-player.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    
+    <div class="container">
+      
+      <div class="row">
+
+        <!-- SIDEBAR -->
+        <div class="col-2">
+          <nav class="sidebar">
+            <ul class="menu" style="padding-top: 80px;">
+
+              <ul class="menu__item" style="font-size: 28px" value="freelink"><a href="#">freelink</a></ul>
+              <br>
+              <br>
+              <ul class="menu__item" value="installation"><a href="#">installation</a></ul>
+              <ul class="menu__item" value="performance"><a href="#">performance</a></ul>
+              <ul class="menu__item" value="discography"><a href="#">musical projects</a></ul>
+              <!-- <ul class="menu__item" value="all"><a href="#">all</a></ul> -->
+              <br>
+              <ul class="menu__item" value="mixes"><a href="#">mixes</a></ul>
+              <ul class="menu__item" value="visual"><a href="#">visual</a></ul>
+              <!-- writing -->
+              <!-- dates -->
+              <br>
+              <ul class="menu__item" value="about"><a href="#">about</a></ul>
+              <br>
+              <ul><a href="mailto: jasonandrewclark1@gmail.com">contact</a></ul>
+              <ul><a href="https://www.instagram.com/jasoneseus/" target="blank">instagram</a></ul>
+              
+            </ul>
+          </nav>
+        </div>
+          
+          <!-- TEXT -->
+        <section id="container"></section>
+        
+      </div>
+    </div>
+
+    <!-- AUDIO PLAYER
+    <audio id="cs_audio" controls>
+      <source src="/assets/mp3/aesthetic.mp3" type="audio/mpeg">
+    </audio>
+
+    <div style="text-align: center;">
+      <div id="cs_audioplayer">
+        
+        <span style="position: relative;left: 0;float: left;font-size: 0.87em;">
+          <span id="cs_audio_current_time"></span>
+        </span>
+        <span id="cs_play_pause_btn" style="position: relative;">
+          <i class="far fa-play-circle" id="cs_audio_play"></i>
+          <i class="far fa-pause-circle" id="cs_audio_pause"></i>
+        </span>
+
+        <span id="cs_audio_sound" style="position: relative;right: 5px;float: right;margin-left: 15px;top: -2px;">
+          <i style="vertical-align: middle;font-size: 1.14em;" class="fas fa-volume-down"></i>
+            <div class="cs_volBar" style="height: 6px; width: 65px;background-color: #ccc;display: inline-block;cursor: pointer;">
+              <div class="cs_volume" style="height: 6px;width: 28px;background-color: red;position: absolute;"></div>
+            </div>
+        </span>
+
+        <span id="cs_audio_duration" style="position: relative;right: 0;float: right;padding-left: 10px;font-size: 0.87em;"></span>
+        
+        <div class="cs_audio_bar">
+            <div class="cs_audio_bar_now"></div>
+            <div class="cs_audio_bar_loaded"></div>
+        </div>
+      </div>
+    </div> -->
+
+
+    <script>
+
+			function folder_to(idx) {
+				var elements = document.getElementsByClassName("folder");
+				for (var i=0, max=elements.length; i < max; i++) {
+					elements[i].style.opacity=0;
+					elements[i].style.pointerEvents = 'none';
+				}
+				elements[idx].style.opacity=1;
+				elements[idx].style.pointerEvents = 'auto';
+
+
+
+				var elements = document.getElementsByClassName("index");
+				for (var i=0, max=elements.length; i < max; i++) {
+					elements[i].style.opacity=0.4;
+				}
+				elements[idx].style.opacity=1;
+
+				window.scrollTo({top: 0})
+			}
+
+
+
+			function load_url(url) {
+				window.location.href = url;
+			}
+			
+			if (screen.width <= 699) {
+        		document.location = "m_index.html";
+        	}
+          
+		</script>
+
+
+    <!-- FOOTER -->
+    <div id="footer"><footer> &copy; 2022 jason clark </footer></div>
+
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="musicassets/cspd-player.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+  </body>
+</html>
+
+
