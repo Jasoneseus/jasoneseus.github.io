@@ -43,7 +43,7 @@ window.onload = function()
         }
         default:
         {
-            loadPage("freelink");
+            loadPage("404");
             break;
         }
     }
