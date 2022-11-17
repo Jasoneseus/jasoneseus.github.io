@@ -1,0 +1,58 @@
+/* Zaro padding on html body*/
+
+html, body {
+  /* margin: 0;
+  padding: 0; */
+  font-family: 'Times New Roman', Times, serif;
+  /* --nav-width: 200px;
+  margin: 0 0 0 var(--nav-width); */
+}
+
+/* GENERAL IMAGE FORMATTING */
+
+img {
+  position: relative;
+
+  width: 100%;
+  padding-right: 50px;
+
+  height: auto;
+  vertical-align: bottom;
+}
+
+.video {
+  position: relative;
+  width: 100%;
+
+  padding-right: 50px;
+
+  height: auto;
+  vertical-align: bottom;
+}
+
+  /* paragraph and general look of text */
+p {
+  margin: 0em;
+  font-size: 14px;
+} 
+
+
+  /* PLAYING WITH LISTS */
+  
+  .menu_in {
+    font-size: 14px;
+  }
+
+  .menu_in ul, .menu_in li {
+    margin: 0; padding: 0;
+  }
+
+  #footer {
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+}
+
+  /* MUSIC PLAYER */
+

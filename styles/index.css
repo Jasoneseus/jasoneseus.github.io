@@ -1,0 +1,103 @@
+SIDEBAR
+
+  body {
+    --nav-width: 250px;
+    margin: 0 0 0 var(--nav-width);
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 10;
+    left: 0;
+    width: var(--nav-width);
+    height: 100vh;
+    background: white;
+  }
+
+  .nav__link {
+    display: block;
+    padding: 1px 30px;
+    text-decoration: none;
+}
+  
+  /* .sidebar div, a {
+    display: block;
+  } */
+
+  a {
+    color: #000;
+  }
+
+  .sidebar a {
+    color:#000;
+    text-decoration: none;
+  }
+  
+  .sidebar a:link {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* visited link */
+  .sidebar a:visited {
+    color: black;
+  }
+  
+  .sidebar a.current {
+    color:red;
+  }
+
+  /* mouse over link */
+  /* selected link */
+  .sidebar a:hover,
+  .sidebar a.active {
+    color: grey;
+  }
+
+  /* side side bar */
+
+  .sidesidebar {
+    position: fixed;
+  }
+  
+  /* .sidesidebar div, a {
+    display: block;
+  } */
+
+  .sidesidebar a {
+    color:#000;
+    text-decoration: none;
+  }
+  
+  .sidesidebar a:link {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* visited link */
+  .sidesidebar a:visited {
+    color: black;
+  }
+  
+  .sidesidebar a.current {
+    color:red;
+  }
+
+  /* mouse over link */
+  /* selected link */
+  .sidesidebar a:hover {
+    color:rgb(0, 0, 0);
+  }
+
+  .sidesidebar a.active {
+    color: black;
+  }
+
+  
+.folder {
+  position: absolute;
+
+  height: auto;
+  opacity: 0;
+}
+
+
+
