@@ -56,3 +56,7 @@ p {
 
   /* MUSIC PLAYER */
 
+  .wp-block-embed-spotify {
+    max-height: 200px;
+    overflow: auto;
+  }
