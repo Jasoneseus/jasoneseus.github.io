@@ -60,3 +60,24 @@ p {
     max-height: 200px;
     overflow: auto;
   }
+
+
+
+  div.scrollmenu {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    position: sticky;
+  }
+  
+  div.scrollmenu p {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu p:hover {
+    background-color: #777;
+  }
