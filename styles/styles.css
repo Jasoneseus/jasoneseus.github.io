@@ -33,7 +33,8 @@ img {
   /* paragraph and general look of text */
 p {
   margin: 0em;
-  font-size: 14px;
+  font-size: 10px;
+  font-family: 'Times New Roman', Times, serif;
 } 
 
 
