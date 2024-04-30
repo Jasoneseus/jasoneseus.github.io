@@ -5,6 +5,13 @@ SIDEBAR
     margin: 0 0 0 var(--nav-width);
   }
 
+
+.hidden {
+  display: none;
+}
+
+
+
   .sidebar {
     position: fixed;
     top: 10;
