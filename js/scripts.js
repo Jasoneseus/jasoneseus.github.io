@@ -1,9 +1,9 @@
 
 $(document).ready(function(){
-         
+        
     $('#content').load("new.html");
- 
- });
+
+});
 
 window.onload = function()
 {
